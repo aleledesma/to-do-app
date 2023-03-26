@@ -1,0 +1,23 @@
+.todo-edit-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .todo-edit-input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: #615555;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 0 10px
+  }
+
+  .todo-edit-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+}

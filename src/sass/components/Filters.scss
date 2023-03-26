@@ -1,0 +1,18 @@
+.filters-container {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+
+  .filter {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+
+  .selected {
+    border: 1px solid #CE4646;
+  }
+}
